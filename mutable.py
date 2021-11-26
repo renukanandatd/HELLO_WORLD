@@ -1,0 +1,12 @@
+computer_parts=["monitor","mouse","keyboard"]
+print(id(computer_parts))
+computer_parts+=["mouse_mat"]
+print(id(computer_parts))
+print(len(computer_parts))
+print(computer_parts[2])
+a=b=c=d=computer_parts
+print(a)
+b.append("cpu")
+print(c)
+print(d)
+print(computer_parts[0:2])
